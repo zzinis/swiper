@@ -99,7 +99,7 @@
                 height: 100vh;
                 position: relative;
 
-                .wrap{
+                >.wrap{
                     display: flex;
                     justify-content: space-between;
                     .left{
@@ -138,9 +138,8 @@
                         position: relative;
                         .mid{
                             height: 70%;
-                            display: flex;
                             .first{
-                                width: 80%;
+                                width: 100%;
                                 h1{
                                     font: 16px/1.4 'arial';
                                     margin-bottom: 80px;
@@ -152,16 +151,36 @@
                             }
                             .aside{
                                 width: auto;
-                                span{
-                                    transform: rotate(-90deg);
+                                transform: rotate(-90deg);
+                                position: absolute;
+                                top: 20%;
+                                right: -23%;
+                                // transform: rotate(-90deg); transform-origin: top; 
+                                .wrap{
+                                    display: flex;
+                                    
+                                    article{
+                                        width: 240px;
+                                        p{
+                                            font: 15px/1 'arial';
+                                        }
+                                        &:nth-of-type(1){
+                                            width: 160px;
+                                        }
+                                    }
                                 }
-                                p{
-                                    position: absolute;
-                                    top: 30%;
-                                    right: 0;
-                                    transform: rotate(-90deg);
 
-                                }
+                                // writing-mode: vertical-lr;
+                                // span{
+                                //     transform: rotate(-90deg);
+                                // }
+                                // p{
+                                //     position: absolute;
+                                //     top: 30%;
+                                //     right: 0;
+                                //     transform: rotate(-90deg);
+
+                                // }
                             }
                         }
                         .bottom{
