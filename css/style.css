@@ -139,5 +139,51 @@ a {
                   margin-bottom: 10px; }
                 #wrap .swiper-wrapper .sld1 .inner > .wrap .right .bottom .row article span {
                   font: 15px/1 'arial'; }
+    #wrap .swiper-wrapper .sld2 .inner {
+      width: 100%;
+      height: 100vh;
+      background: #bbb; }
+    #wrap .swiper-wrapper .sld3 .inner {
+      width: 100%;
+      height: 100vh;
+      background: #ebebeb; }
+    #wrap .swiper-wrapper .sld4 .inner {
+      width: 100%;
+      height: 100vh;
+      background: #ca8282; }
+  #wrap .swiper-button-next {
+    top: auto;
+    bottom: 3vh;
+    right: 3vw;
+    transform: translateY(-50%);
+    transform: scale(0.6);
+    filter: saturate(0%) brightness(100%);
+    opacity: 1; }
+  #wrap .swiper-button-prev {
+    top: auto;
+    bottom: 3vh;
+    left: auto;
+    right: calc(3vw + 50px);
+    transform: scale(0.6);
+    filter: saturate(0%) brightness(100%);
+    opacity: 1; }
+  #wrap .swiper-pagination {
+    position: absolute;
+    left: 24%;
+    width: auto;
+    height: 50px;
+    top: 0px; }
+    #wrap .swiper-pagination span {
+      width: 18px;
+      height: auto;
+      background: transparent;
+      border-radius: 0px;
+      margin-left: 60px;
+      opacity: 0.8;
+      color: #111;
+      font: 14px/1 'arial'; }
+      #wrap .swiper-pagination span.swiper-pagination-bullet-active {
+        opacity: 1;
+        font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
