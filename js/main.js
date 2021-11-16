@@ -27,7 +27,6 @@ const prev = document.querySelector(".swiper-button-prev");
 const next = document.querySelector(".swiper-button-next");
 const navi = document.querySelectorAll(".swiper-pagination span");
 
-
 next.addEventListener("click", activation);
 prev.addEventListener("click", activation);
 window.addEventListener("mousewheel", activation);
