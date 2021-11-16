@@ -144,33 +144,83 @@ a {
       #wrap .swiper-wrapper .sld2 .inner {
         width: 100%;
         height: 100vh;
-        padding: 40px; }
+        padding: 70px 0;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly; }
         #wrap .swiper-wrapper .sld2 .inner::before {
           content: '';
           display: block;
           width: 350px;
-          height: 500px;
+          height: 570px;
           background: #f2f1f2;
           position: absolute;
           top: 0;
-          right: 0; }
-        #wrap .swiper-wrapper .sld2 .inner h1 {
-          font: bold 40px/1 'arial';
-          margin-bottom: 20px; }
-        #wrap .swiper-wrapper .sld2 .inner p {
-          font: 14px/1.5 'arial';
-          margin-bottom: 20px; }
-        #wrap .swiper-wrapper .sld2 .inner a {
-          font: bold 14px/1 'arial';
-          color: #111; }
-        #wrap .swiper-wrapper .sld2 .inner span {
+          right: 0;
+          z-index: 1; }
+        #wrap .swiper-wrapper .sld2 .inner::after {
+          content: '';
+          display: block;
+          width: 350px;
+          height: 570px;
+          background: #f2f1f2;
           position: absolute;
-          top: 10%;
-          right: 10%;
-          transform: rotate(90deg);
-          font: bold 24px/1 'arial'; }
-          #wrap .swiper-wrapper .sld2 .inner span strong {
-            color: #6b6b6b; }
+          bottom: 0;
+          left: 0;
+          z-index: 1; }
+        #wrap .swiper-wrapper .sld2 .inner .aside p {
+          font: bold 15px/1 'arial';
+          margin-bottom: 10px; }
+        #wrap .swiper-wrapper .sld2 .inner .aside span {
+          font: 15px/1 'arial';
+          margin-bottom: 20px;
+          display: block; }
+        #wrap .swiper-wrapper .sld2 .inner .right .txt {
+          z-index: 2;
+          margin-bottom: 80px;
+          position: relative; }
+          #wrap .swiper-wrapper .sld2 .inner .right .txt h1 {
+            font: bold 50px/1 'arial';
+            margin-bottom: 20px; }
+          #wrap .swiper-wrapper .sld2 .inner .right .txt p {
+            font: 14px/1.5 'arial';
+            margin-bottom: 20px; }
+          #wrap .swiper-wrapper .sld2 .inner .right .txt a {
+            font: bold 14px/1 'arial';
+            color: #111; }
+          #wrap .swiper-wrapper .sld2 .inner .right .txt span {
+            position: absolute;
+            top: 12%;
+            right: 10%;
+            transform: rotate(90deg);
+            font: bold 26px/1 'arial'; }
+            #wrap .swiper-wrapper .sld2 .inner .right .txt span strong {
+              color: #6b6b6b; }
+        #wrap .swiper-wrapper .sld2 .inner .right .wrap {
+          display: flex;
+          z-index: 2;
+          position: relative; }
+          #wrap .swiper-wrapper .sld2 .inner .right .wrap article {
+            width: 380px;
+            height: 250px;
+            margin-right: 20px;
+            padding-right: 50px; }
+            #wrap .swiper-wrapper .sld2 .inner .right .wrap article:last-child {
+              margin-right: 0; }
+            #wrap .swiper-wrapper .sld2 .inner .right .wrap article p {
+              font: bold 14px/1 'arial';
+              margin-bottom: 15px;
+              border-bottom: 2px solid #111;
+              display: inline-block;
+              padding-bottom: 5px; }
+            #wrap .swiper-wrapper .sld2 .inner .right .wrap article h2 {
+              font: 14px/1.6 'arial';
+              margin-bottom: 25px; }
+            #wrap .swiper-wrapper .sld2 .inner .right .wrap article img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover; }
     #wrap .swiper-wrapper .sld3 .inner {
       width: 100%;
       height: 100vh;
