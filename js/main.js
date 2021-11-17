@@ -1,6 +1,6 @@
-const menu = ["Home", "Projects", "Work", "Contact"];
+var menu = ["Home", "Projects", "Work", "Contact"];
 
-const swiper = new Swiper("#wrap", { 
+var swiper = new Swiper("#wrap", { 
     loop: true,
     slidesPerView: "auto", 
     centeredSlides: true, 
@@ -23,12 +23,9 @@ const swiper = new Swiper("#wrap", {
 });
 
 
-const prev = document.querySelector(".swiper-button-prev");
-const next = document.querySelector(".swiper-button-next");
-const navi = document.querySelectorAll(".swiper-pagination span");
+// var prev = $(".swiper-button-prev");
+// var next = $(".swiper-button-next");
+// var navi = $(".swiper-pagination span");
 
-next.addEventListener("click", activation);
-prev.addEventListener("click", activation);
-window.addEventListener("mousewheel", activation);
-swiper.on("slideChangeTransitionEnd", activation);
+
 
