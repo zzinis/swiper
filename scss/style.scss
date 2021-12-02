@@ -320,6 +320,49 @@
             }
         }
 
+        .sld3{
+            .inner{
+                padding: 20px 40px;
+                .wrap{
+                    display: flex;
+                    height: 50vh;
+                    margin-top: 20px;
+                    position: relative;
+
+                    article{
+                        width: calc(100% / 6);
+                        height: 400px;
+                        margin-right: 35px;
+                        border: 1px solid #bbb;
+                        display: grid;
+                        align-content: stretch;
+                        justify-items: end;
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                        img{
+                            width: 100%;
+                            height: 200px;
+                            object-fit: cover;
+                            filter: grayscale(1);
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            font: 20px/1 'Heebo';
+                            transform: rotate(270deg);
+                            transform-origin: top left ;
+                            margin-right: 5px;
+                        }
+                        span{
+                            display: block;
+                            padding: 10px;
+                            font: 20px/0.9 "Heebo";
+                        }
+                    }
+                }
+            }
+        }
+
 
 
         .sld4{
