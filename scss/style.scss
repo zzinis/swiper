@@ -396,10 +396,23 @@
 
 
         .sld4{
-            .inner{
-                width: 100%;
-                height: 100vh;
-                background: #ca8282;
+            section{
+                padding: 20px;
+                &::after{
+                    content: ''; display: block;
+                    clear: both;
+                }
+                .item-sizer{
+                    width: 20%;
+                    height: 0;
+                    opacity: 0;
+                }
+                .item{
+                    float: left;
+                    width: 20%; height: 200px;
+                    border-right: 1px solid #bbb;
+                    border-top: 1px solid #bbb;
+                }
             }
         }
     }

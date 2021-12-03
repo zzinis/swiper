@@ -277,10 +277,22 @@ a {
         #wrap .swiper-wrapper .sld3 .inner .txt span {
           padding: 10px 0;
           font: 14px/1.3 'Heebo'; }
-    #wrap .swiper-wrapper .sld4 .inner {
-      width: 100%;
-      height: 100vh;
-      background: #ca8282; }
+    #wrap .swiper-wrapper .sld4 section {
+      padding: 20px; }
+      #wrap .swiper-wrapper .sld4 section::after {
+        content: '';
+        display: block;
+        clear: both; }
+      #wrap .swiper-wrapper .sld4 section .item-sizer {
+        width: 20%;
+        height: 0;
+        opacity: 0; }
+      #wrap .swiper-wrapper .sld4 section .item {
+        float: left;
+        width: 20%;
+        height: 200px;
+        border-right: 1px solid #bbb;
+        border-top: 1px solid #bbb; }
   #wrap .swiper-button-next {
     top: auto;
     bottom: 3vh;
