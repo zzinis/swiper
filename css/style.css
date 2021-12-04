@@ -284,15 +284,35 @@ a {
         display: block;
         clear: both; }
       #wrap .swiper-wrapper .sld4 section .item-sizer {
-        width: 20%;
+        width: 25%;
         height: 0;
         opacity: 0; }
       #wrap .swiper-wrapper .sld4 section .item {
         float: left;
-        width: 20%;
+        width: 25%;
         height: 200px;
         border-right: 1px solid #bbb;
         border-top: 1px solid #bbb; }
+        #wrap .swiper-wrapper .sld4 section .item .inner {
+          padding: 20px; }
+        #wrap .swiper-wrapper .sld4 section .item:nth-of-type(2) {
+          font: 30px/1 'Heebo';
+          width: 50%;
+          height: 100px; }
+        #wrap .swiper-wrapper .sld4 section .item:nth-of-type(3) {
+          width: 50%;
+          height: 300px; }
+          #wrap .swiper-wrapper .sld4 section .item:nth-of-type(3) .inner {
+            display: flex; }
+            #wrap .swiper-wrapper .sld4 section .item:nth-of-type(3) .inner img {
+              width: 50%;
+              height: 300px;
+              object-fit: cover; }
+        #wrap .swiper-wrapper .sld4 section .item:nth-of-type(4) {
+          width: 50%; }
+          #wrap .swiper-wrapper .sld4 section .item:nth-of-type(4) ul {
+            display: flex;
+            justify-content: space-evenly; }
   #wrap .swiper-button-next {
     top: auto;
     bottom: 3vh;
