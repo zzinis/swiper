@@ -6,7 +6,7 @@
 //         columWidth: ".item-sizer"
 //     }
 // })
-$('.sld4 section').isotope({
+$('section').isotope({
     itemSelector: '.item',
     percentPosition: true,
     masonry: {
