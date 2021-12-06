@@ -6,7 +6,7 @@
 //         columWidth: ".item-sizer"
 //     }
 // })
-$('section').isotope({
+$("section").isotope({
     itemSelector: '.item',
     percentPosition: true,
     masonry: {
