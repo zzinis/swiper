@@ -253,7 +253,7 @@
                         display: block;
                     }
                 }
-                .right{
+                >.right{
                     
                     .txt{
                         z-index: 2;
@@ -393,76 +393,121 @@
             }
         }
 
-
-
         .sld4{
-            width: 100%;
-            height: 100vh;
-            section{
-                padding: 20px;
-                
-                &::after{
-                    content: ''; display: block;
-                    clear: both;
-                }
-                .item-sizer{
-                    width: 25%;
-                    height: 0;
-                    opacity: 0;
-                }
-                .item{
-                    float: left;
-                    width: 25%; height: 200px;
-                    border-right: 1px solid #bbb;
-                    border-top: 1px solid #bbb;
-                    .inner{
-                        padding: 20px;
-                        img{
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                        }
+            main{
+                width: 100%; 
+                padding: 4vw;
+                background: #fff;
+            
+                >section{
+                    width: 100%; 
+                    
+                    &::after{
+                        content: ''; display: block; clear: both;
                     }
-                    &:nth-of-type(2){
-                        font: 30px/1 'Heebo';
-                        width: 50%; height: 50px;
+                    .item-sizer{
+                        width: 25%;
+                        height: 0px;
+                        opacity: 0;
                     }
-                    &:nth-of-type(3){
-                        width: 50%;
-                        height:400px ;
-                        .inner{
-                            display: flex;
-                            img{
-                                width: 50%;
-                                height: 300px;
-                                object-fit: cover;
-                            }
+                    .item{
+                        float: left;
+                        width: 50%; height: 100px;
+                        padding: 5px;
+                        border: 1px solid #bbb;
+            
+                        &:nth-of-type(3){
+                            height: 500px;
                         }
+                        &:nth-of-type(4){
+                            height: 50px;
+                        }
+                        &:nth-of-type(5),&:nth-of-type(6){
+                            width: 25%;
+                            height: 350px;
+                        }
+                        // &:nth-of-type(9),&:nth-of-type(10){
+                        //     width: 10%;
+                        //     height: 200px;
+                        // }
+                        &:nth-of-type(11),&:nth-of-type(12){
+                            width: 25%;
+                        }
+            
                         
-                    }
-                    &:nth-of-type(4){
-                        width: 50%;
-                        height: 50px;
-                        ul{
-                            display: flex;
-                            justify-content: space-evenly;
-                        }
-                    }
-                    &:nth-of-type(5){
-                        height: 300px;
-                        img{
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                        }
-                    }
-                    &:nth-of-type(6), &:nth-of-type(7){
-                        width: 50%;
-                        height: 100px;
                     }
                 }
             }
         }
+
+        // .sld4{
+        //     width: 100%;
+        //     height: 100vh;
+        //     >.grid{
+        //         padding: 20px;
+                
+        //         &::after{
+        //             content: ''; display: block;
+        //             clear: both;
+        //         }
+        //         .item-sizer{
+        //             width: 25%;
+        //             height: 0;
+        //             opacity: 0;
+        //         }
+        //         .item{
+        //             float: left;
+        //             width: 25%; height: 200px;
+        //             border-right: 1px solid #bbb;
+        //             border-top: 1px solid #bbb;
+        //             .inner{
+        //                 padding: 20px;
+        //                 img{
+        //                     width: 100%;
+        //                     height: 100%;
+        //                     object-fit: cover;
+        //                 }
+        //             }
+        //             &:nth-of-type(2){
+        //                 font: 30px/1 'Heebo';
+        //                 width: 50%; height: 50px;
+        //             }
+        //             &:nth-of-type(3){
+        //                 width: 50%;
+        //                 height:400px ;
+        //                 .inner{
+        //                     display: flex;
+        //                     img{
+        //                         width: 50%;
+        //                         height: 300px;
+        //                         object-fit: cover;
+        //                     }
+        //                 }
+                        
+        //             }
+        //             &:nth-of-type(4){
+        //                 width: 50%;
+        //                 height: 50px;
+        //                 ul{
+        //                     display: flex;
+        //                     justify-content: space-evenly;
+        //                 }
+        //             }
+        //             &:nth-of-type(5){
+        //                 height: 300px;
+        //                 img{
+        //                     width: 100%;
+        //                     height: 100%;
+        //                     object-fit: cover;
+        //                 }
+        //             }
+        //             &:nth-of-type(6), &:nth-of-type(7){
+        //                 width: 50%;
+        //                 height: 100px;
+        //             }
+        //         }
+        //     }
+        // }
     }
 
     .swiper-button-next {
