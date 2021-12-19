@@ -1,4 +1,4 @@
-var menu = ["Home", "Projects", "Work", "Contact"];
+var menu = ["Home", "Projects", "Work"];
 
 var swiper = new Swiper("#wrap", { 
     loop: true,
